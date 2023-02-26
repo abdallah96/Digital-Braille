@@ -92,37 +92,13 @@ struct Learning_Letters: View {
                             .cornerRadius(25)
                     }
                     .buttonStyle(CustomButtonStyle())
+                   
+                    .navigationDestination(isPresented: $navigateToNextView) {
+                        destinationView()
+                    }
                     
                     Button(action: {
-                        if isButton1Clicked {
-                            navigateToNextView = true
-                            // letter a
-                        } else if isButton1Clicked && isButton2Clicked {
-                            // letter b
-                        } else if isButton1Clicked && isButton4Clicked {
-                            // letter c
-                        }
-                        else if isButton1Clicked && isButton4Clicked && isButton5Clicked {
-                            // letter d
-                        }
-                        else if isButton1Clicked  && isButton5Clicked {
-                            // letter e
-                        }
-                        else if isButton1Clicked && isButton2Clicked && isButton4Clicked {
-                            // letter f
-                        }
-                        else if isButton1Clicked && isButton2Clicked && isButton4Clicked && isButton5Clicked {
-                            // letter g
-                        }
-                        else if isButton1Clicked && isButton2Clicked && isButton5Clicked {
-                            // letter h
-                        }
-                        else if isButton2Clicked && isButton4Clicked {
-                            // letter i
-                        }
-                        else if isButton2Clicked && isButton4Clicked && isButton5Clicked {
-                            // letter j
-                        }
+                        navigateToNextView = true
                     }) {
                         Text("NÄCHSTE")
                             .font(.largeTitle).bold()
@@ -131,15 +107,27 @@ struct Learning_Letters: View {
                             .background(Color(red: 0, green: 0.102, blue: 0.545))
                             .cornerRadius(25)
                     }
-                    .navigationDestination(isPresented: $navigateToNextView){
-                        Letter_a()
-                        Text("a")
-                            .hidden()
+                    .sheet(isPresented: $navigateToNextView) {
+                        destinationView()
                     }
-
-
                 }
             }
+        }
+        
+    }
+    func destinationView() -> AnyView {
+        switch(isButton1Clicked, isButton2Clicked, isButton3Clicked, isButton4Clicked, isButton5Clicked, isButton6Clicked) {
+        case(true, false, false, false, false, false) :
+            return AnyView(Letter_a())
+            
+        case(true, true, false, false, false, false) :
+            return AnyView(letter_b())
+            
+        case(true, false, false, true, false, false) :
+            return AnyView(letter_c())
+            
+        default:
+            return AnyView(EmptyView())
         }
     }
 }
