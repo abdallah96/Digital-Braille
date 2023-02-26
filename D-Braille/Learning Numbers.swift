@@ -1,13 +1,13 @@
 //
-//  Learning Letters.swift
+//  Learning Numbers.swift
 //  D-Braille
 //
-//  Created by Abdallah Amadou Gueye on 25.02.23.
+//  Created by Abdallah Amadou Gueye on 26.02.23.
 //
 
 import SwiftUI
 
-struct Learning_Letters: View {
+struct Learning_Numbers: View {
     @State private var isButton1Clicked = false
     @State private var isButton2Clicked = false
     @State private var isButton3Clicked = false
@@ -15,13 +15,12 @@ struct Learning_Letters: View {
     @State private var isButton5Clicked = false
     @State private var isButton6Clicked = false
     @State private var navigateToNextView = false
-
     var body: some View {
         NavigationView {
             ZStack {
                 Color(red: 1, green: 0.929, blue: 0.063).edgesIgnoringSafeArea(.all)
                 VStack(spacing: 30) {
-                    Text("Buchstaben lernen")
+                    Text("Zahlen lernen")
                         .font(.largeTitle).bold()
                         .foregroundColor(Color(red: 0, green: 0.102, blue: 0.545))
                     HStack( ) {
@@ -110,32 +109,49 @@ struct Learning_Letters: View {
                     .fullScreenCover(isPresented: $navigateToNextView) {
                         destinationView()
                     }
-                    
                 }
             }
         }
-        
     }
     func destinationView() -> AnyView {
         switch(isButton1Clicked, isButton2Clicked, isButton3Clicked, isButton4Clicked, isButton5Clicked, isButton6Clicked) {
-        case(true, false, false, false, false, false) :
-            return AnyView(Letter_a())
+        case(true, false, false, false, false, true) :
+            return AnyView(number_1())
             
-        case(true, true, false, false, false, false) :
-            return AnyView(letter_b())
+        case(true, true, false, false, false, true) :
+            return AnyView(number_2())
             
-        case(true, false, false, true, false, false) :
-            return AnyView(letter_c())
+        case(true, false, false, true, false, true) :
+            return AnyView(number_3())
             
+        case(true, false, false, true, true, true) :
+            return AnyView(number_4())
+            
+        case(true, false, false, false, true, true) :
+            return AnyView(number_5())
+            
+        case(true, true, false, true, false, true) :
+            return AnyView(number_6())
+            
+        case(true, true, false, true, true, true) :
+            return AnyView(number_7())
+            
+        case(true, true, false, false, true, true) :
+            return AnyView(number_8())
+            
+        case(false, true, false, true, false, true) :
+            return AnyView(number_9())
+            
+        case(false, false, true, true, false, true) :
+            return AnyView(number_0())
         default:
-            return AnyView(Learning_Letters())
+            return AnyView(Learning_Numbers())
         }
     }
 }
 
-
-struct Learning_Letters_Previews: PreviewProvider {
+struct Learning_Numbers_Previews: PreviewProvider {
     static var previews: some View {
-        Learning_Letters()
+        Learning_Numbers()
     }
 }

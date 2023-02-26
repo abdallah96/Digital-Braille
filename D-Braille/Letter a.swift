@@ -8,12 +8,8 @@
 import SwiftUI
 
 struct Letter_a: View {
-    @State private var isButton1Clicked = false
-    @State private var isButton2Clicked = false
-    @State private var isButton3Clicked = false
-    @State private var isButton4Clicked = false
-    @State private var isButton5Clicked = false
-    @State private var isButton6Clicked = false
+    @State private var navigateToNextView = false
+    @State private var navigateToNextView2 = false
     var body: some View {
         ZStack {
             Color(red: 1, green: 0.929, blue: 0.063).edgesIgnoringSafeArea(.all)
@@ -26,36 +22,36 @@ struct Letter_a: View {
                     .accessibilityLabel("")
                 Spacer()
                     Button(action: {
-                        
+                        navigateToNextView = true
                     }) {
-                        Text("WIEDERHOLEN")
-                            .font(.largeTitle).bold()
-                            .foregroundColor(Color.white)
-                            .frame(width: 346, height: 69)
-                            .background(Color(red: 0, green: 0.102, blue: 0.545))
-                            .cornerRadius(25)
-                        NavigationLink(destination: Learning_Letters()){
-//                            Text("Buchstaben lernen")
-                        }
+                            Text("WIEDERHOLEN")
+                                .font(.largeTitle).bold()
+                                .foregroundColor(Color.white)
+                                .frame(width: 346, height: 69)
+                                .background(Color(red: 0, green: 0.102, blue: 0.545))
+                                .cornerRadius(25)
+                    }
+                    .fullScreenCover(isPresented: $navigateToNextView) {
+                        Learning_Letters()
                     }
                     .buttonStyle(CustomButtonStyle())
                     
                 Button(action: {
-                    
+                    navigateToNextView = true
                 }) {
-                    Text("NÄCHSTE")
-                        .font(.largeTitle).bold()
-                        .foregroundColor(Color.white)
-                        .frame(width: 346, height: 69)
-                        .background(Color(red: 0, green: 0.102, blue: 0.545))
-                        .cornerRadius(25)
-                    NavigationLink(destination: Learning_Letters()){
-//                        Text("Buchstaben lernen")
+                            Text("NÄCHSTE")
+                                .font(.largeTitle).bold()
+                                .foregroundColor(Color.white)
+                                .frame(width: 346, height: 69)
+                                .background(Color(red: 0, green: 0.102, blue: 0.545))
+                                .cornerRadius(25)
                     }
+                .fullScreenCover(isPresented: $navigateToNextView) {
+                    Learning_Letters()
                 }
                 .buttonStyle(CustomButtonStyle())
                 Button(action: {
-                    
+                    navigateToNextView2 = true
                 }) {
                     Text("STARSEITE")
                         .font(.largeTitle).bold()
@@ -63,9 +59,9 @@ struct Letter_a: View {
                         .frame(width: 346, height: 69)
                         .background(Color(red: 0, green: 0.102, blue: 0.545))
                         .cornerRadius(25)
-                    NavigationLink(destination: ContentView()){
-//                        Text("S")
-                    }
+                }
+                .fullScreenCover(isPresented: $navigateToNextView2) {
+                    ContentView()
                 }
                 .buttonStyle(CustomButtonStyle())
             }
@@ -78,9 +74,9 @@ struct Letter_a: View {
                 .opacity(configuration.isPressed ? 0.8 : 1.0)
         }
     }
-    struct Letter_a_Previews: PreviewProvider {
-        static var previews: some View {
-            Letter_a()
-        }
+}
+struct Letter_a_Previews: PreviewProvider {
+    static var previews: some View {
+        Letter_a()
     }
 }

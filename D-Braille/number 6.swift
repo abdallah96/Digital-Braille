@@ -1,26 +1,26 @@
 //
-//  letter c.swift
+//  number 6.swift
 //  D-Braille
 //
-//  Created by Abdallah Amadou Gueye on 25.02.23.
+//  Created by Abdallah Amadou Gueye on 26.02.23.
 //
 
 import SwiftUI
 
-struct letter_c: View {
+struct number_6: View {
     @State private var navigateToNextView = false
     @State private var navigateToNextView2 = false
     var body: some View {
         ZStack {
             Color(red: 1, green: 0.929, blue: 0.063).edgesIgnoringSafeArea(.all)
             VStack(spacing: 30) {
-                Text("Buchstabe c")
+                Text("Zahlen 6")
                     .font(.largeTitle).bold()
                     .foregroundColor(Color(red: 0, green: 0.102, blue: 0.545))
-                Spacer()
-              Image("Antwort c")
-                    .accessibilityLabel("")
-                Spacer()
+//                Spacer()
+              Image("Antwort 6")
+                    .accessibilityLabel("6")
+//                Spacer()
                 Button(action: {
                     navigateToNextView = true
                 }) {
@@ -32,7 +32,7 @@ struct letter_c: View {
                             .cornerRadius(25)
                 }
                 .fullScreenCover(isPresented: $navigateToNextView) {
-                    Learning_Letters()
+                    Learning_Numbers()
                 }
                 .buttonStyle(CustomButtonStyle())
                 
@@ -47,7 +47,7 @@ struct letter_c: View {
                             .cornerRadius(25)
                 }
             .fullScreenCover(isPresented: $navigateToNextView) {
-                Learning_Letters()
+                Learning_Numbers()
             }
             .buttonStyle(CustomButtonStyle())
             Button(action: {
@@ -69,8 +69,8 @@ struct letter_c: View {
     }
 }
 
-struct letter_c_Previews: PreviewProvider {
+struct number_6_Previews: PreviewProvider {
     static var previews: some View {
-        letter_c()
+        number_6()
     }
 }
