@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationView {
             ZStack {
                 Color(red: 0, green: 0.102, blue: 0.545).edgesIgnoringSafeArea(.all)
-                VStack(spacing: 57) {
+                VStack {
                     Text("BRAILLE LERNEN")
                         .font(.largeTitle).bold()
                         .foregroundColor(Color(red: 1, green: 0.929, blue: 0.063))
@@ -20,25 +20,25 @@ struct ContentView: View {
                         NavigationLink( destination: Learning_Letters()){
                             Image("Buchstaben lernen").accessibilityLabel("Buchstaben lernen")
                         }
-                        Image("Buchstaben üben").accessibilityLabel("Buchstaben üben")
+                        NavigationLink (destination: Practice_Letters()) {
+                            Image("Buchstaben üben").accessibilityLabel("Buchstaben üben")
+                        }
                     }
+                    Spacer()
                     HStack( spacing: 86) {
                         NavigationLink( destination: Learning_Numbers()){
                             Image("Zahlen lernen").accessibilityLabel("Zahlen lernen")
                         }
                         Image("Zahlen üben").accessibilityLabel("Zahlen üben")
                     }
+                    Spacer()
                     HStack( spacing: 86) {
                         Image("Wörter lernen").accessibilityLabel("Wörter lernen")
                         Image("Wörter üben").accessibilityLabel("Wörter üben")
                     }
+                    Spacer()
                     Image("ANFANG")
                 }
-                
-                VStack {
-                    
-                }
-                .padding()
             }
         }
     }

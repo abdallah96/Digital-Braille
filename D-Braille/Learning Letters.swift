@@ -20,7 +20,7 @@ struct Learning_Letters: View {
         NavigationView {
             ZStack {
                 Color(red: 1, green: 0.929, blue: 0.063).edgesIgnoringSafeArea(.all)
-                VStack(spacing: 30) {
+                VStack {
                     Text("Buchstaben lernen")
                         .font(.largeTitle).bold()
                         .foregroundColor(Color(red: 0, green: 0.102, blue: 0.545))
@@ -36,6 +36,7 @@ struct Learning_Letters: View {
                                 .cornerRadius(25)
                         }
                         .buttonStyle(CustomButtonStyle())
+                        .accessibilityLabel(" punkt 1 angeklickt")
                     }
                     Button(action: {
                         isButton2Clicked.toggle()
@@ -48,6 +49,7 @@ struct Learning_Letters: View {
                             .cornerRadius(25)
                     }
                     .buttonStyle(CustomButtonStyle())
+                    .accessibilityLabel(" punkt 2 angeklickt")
                     Button(action: {
                         isButton3Clicked.toggle()
                     }) {
@@ -59,6 +61,7 @@ struct Learning_Letters: View {
                             .cornerRadius(25)
                     }
                     .buttonStyle(CustomButtonStyle())
+                    .accessibilityLabel(" punkt 3 angeklickt")
                     Button(action: {
                         isButton4Clicked.toggle()
                     }) {
@@ -70,6 +73,7 @@ struct Learning_Letters: View {
                             .cornerRadius(25)
                     }
                     .buttonStyle(CustomButtonStyle())
+                    .accessibilityLabel(" punkt 4 angeklickt")
                     Button(action: {
                         isButton5Clicked.toggle()
                     }) {
@@ -81,6 +85,7 @@ struct Learning_Letters: View {
                             .cornerRadius(25)
                     }
                     .buttonStyle(CustomButtonStyle())
+                    .accessibilityLabel(" punkt 5 angeklickt")
                     Button(action: {
                         isButton6Clicked.toggle()
                     }) {
@@ -91,7 +96,9 @@ struct Learning_Letters: View {
                             .background(isButton6Clicked ? Color(red: 0, green: 0.102, blue: 0.545) : Color.white)
                             .cornerRadius(25)
                     }
+                    Spacer()
                     .buttonStyle(CustomButtonStyle())
+                    .accessibilityLabel(" punkt 6 angeklickt")
                    
                     .navigationDestination(isPresented: $navigateToNextView) {
                         destinationView()
@@ -127,8 +134,78 @@ struct Learning_Letters: View {
         case(true, false, false, true, false, false) :
             return AnyView(letter_c())
             
+        case(true, false, false, true, true, false) :
+            return AnyView(letter_d())
+            
+        case(true, false, false, false, true, false) :
+            return AnyView(letter_e())
+            
+        case(true, true, false, true, false, false) :
+            return AnyView(letter_f())
+
+        case(true, true, false, true, true, false) :
+            return AnyView(letter_g())
+            
+        case(true, true, false, false, true, false) :
+            return AnyView(letter_h())
+
+        case(false, true, false, true, false, false) :
+            return AnyView(letter_i())
+            
+        case(false, true, false, true, true, false) :
+            return AnyView(letter_j())
+            
+        case(true, false, true, false, false, false) :
+            return AnyView(letter_k())
+            
+        case(true, true, true, false, false, false) :
+            return AnyView(letter_l())
+            
+        case(true, false, true, true, false, false) :
+            return AnyView(letter_m())
+            
+        case(true, false, true, true, true, false) :
+            return AnyView(letter_n())
+
+        case(true, false, true, false, true, false) :
+            return AnyView(letter_o())
+
+        case(true, true, true, true, false, false) :
+            return AnyView(letter_p())
+
+        case(true, true, true, true, true, false) :
+            return AnyView(letter_q())
+
+        case(true, true, true, false, true, false) :
+            return AnyView(letter_r())
+
+        case(false, true, true, false, true, false) :
+            return AnyView(letter_s())
+
+        case(false, true, true, true, true, false) :
+            return AnyView(letter_t())
+
+        case(true, false, false, true, false, true) :
+            return AnyView(letter_u())
+
+        case(true, true, true, false, false, true) :
+            return AnyView(letter_v())
+
+        case(false, true, false, true, true, true) :
+            return AnyView(letter_w())
+            
+        case(true, false, true, true, false, true) :
+            return AnyView(letter_x())
+
+        case(true, false, true, true, true, true) :
+            return AnyView(letter_y())
+
+        case(true, false, true, false, true, true) :
+            return AnyView(letter_z())
+
+            
         default:
-            return AnyView(Learning_Letters())
+            return AnyView( no_letter())
         }
     }
 }

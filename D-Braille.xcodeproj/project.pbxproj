@@ -29,6 +29,38 @@
 		6A68605429ABEA2B002021C6 /* number 7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A68605329ABEA2B002021C6 /* number 7.swift */; };
 		6A68605629ABEA3D002021C6 /* number 8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A68605529ABEA3D002021C6 /* number 8.swift */; };
 		6A68605829ABEA46002021C6 /* number 9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A68605729ABEA46002021C6 /* number 9.swift */; };
+		6AB07B6B29D1E30300CA95CB /* letter d.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B6A29D1E30300CA95CB /* letter d.swift */; };
+		6AB07B6D29D1E39000CA95CB /* letter e.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B6C29D1E39000CA95CB /* letter e.swift */; };
+		6AB07B6F29D1E3E000CA95CB /* letter f.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B6E29D1E3E000CA95CB /* letter f.swift */; };
+		6AB07B7129D1E40800CA95CB /* letter g.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B7029D1E40800CA95CB /* letter g.swift */; };
+		6AB07B7329D1E42900CA95CB /* letter h.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B7229D1E42900CA95CB /* letter h.swift */; };
+		6AB07B7529D1E44A00CA95CB /* letter i.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B7429D1E44A00CA95CB /* letter i.swift */; };
+		6AB07B7729D1E46A00CA95CB /* letter j.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B7629D1E46A00CA95CB /* letter j.swift */; };
+		6AB07B7929D1E48E00CA95CB /* letter k.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B7829D1E48E00CA95CB /* letter k.swift */; };
+		6AB07B7B29D1E4A900CA95CB /* letter l.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B7A29D1E4A900CA95CB /* letter l.swift */; };
+		6AB07B7D29D1E4D800CA95CB /* letter m.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B7C29D1E4D700CA95CB /* letter m.swift */; };
+		6AB07B7F29D1E4F300CA95CB /* letter n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B7E29D1E4F300CA95CB /* letter n.swift */; };
+		6AB07B8129D1E52E00CA95CB /* letter o.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B8029D1E52E00CA95CB /* letter o.swift */; };
+		6AB07B8329D1E54800CA95CB /* letter p.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B8229D1E54800CA95CB /* letter p.swift */; };
+		6AB07B8529D1E56200CA95CB /* letter q.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B8429D1E56200CA95CB /* letter q.swift */; };
+		6AB07B8729D1E58F00CA95CB /* letter r.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B8629D1E58F00CA95CB /* letter r.swift */; };
+		6AB07B8929D1E5B000CA95CB /* letter s.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B8829D1E5B000CA95CB /* letter s.swift */; };
+		6AB07B8B29D1E5CB00CA95CB /* letter t.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B8A29D1E5CB00CA95CB /* letter t.swift */; };
+		6AB07B8D29D1E5E600CA95CB /* letter u.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B8C29D1E5E600CA95CB /* letter u.swift */; };
+		6AB07B8F29D1E60100CA95CB /* letter v.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B8E29D1E60100CA95CB /* letter v.swift */; };
+		6AB07B9129D1E61C00CA95CB /* letter w.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B9029D1E61C00CA95CB /* letter w.swift */; };
+		6AB07B9329D1E63900CA95CB /* letter x.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B9229D1E63900CA95CB /* letter x.swift */; };
+		6AB07B9529D1E65800CA95CB /* letter y.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B9429D1E65800CA95CB /* letter y.swift */; };
+		6AB07B9729D1E67100CA95CB /* letter z.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B9629D1E67100CA95CB /* letter z.swift */; };
+		6AB07B9929D1E72300CA95CB /* no letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B9829D1E72300CA95CB /* no letter.swift */; };
+		6AB07B9B29D2002D00CA95CB /* Practice Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B9A29D2002D00CA95CB /* Practice Letters.swift */; };
+		6AB07B9D29D2035400CA95CB /* Practice Letter f.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B9C29D2035400CA95CB /* Practice Letter f.swift */; };
+		6AB07B9F29D203A700CA95CB /* Practice session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07B9E29D203A700CA95CB /* Practice session.swift */; };
+		6AB07BA129D2049800CA95CB /* Answer of letter f.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07BA029D2049800CA95CB /* Answer of letter f.swift */; };
+		6AB07BA329D2052500CA95CB /* Wrong Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07BA229D2052500CA95CB /* Wrong Answer.swift */; };
+		6AB07BA529D2232A00CA95CB /* Practice letter b.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07BA429D2232A00CA95CB /* Practice letter b.swift */; };
+		6AB07BA729D223DA00CA95CB /* practice number 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07BA629D223DA00CA95CB /* practice number 3.swift */; };
+		6AB07BA929D2243E00CA95CB /* Practice 8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB07BA829D2243E00CA95CB /* Practice 8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +106,38 @@
 		6A68605329ABEA2B002021C6 /* number 7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "number 7.swift"; sourceTree = "<group>"; };
 		6A68605529ABEA3D002021C6 /* number 8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "number 8.swift"; sourceTree = "<group>"; };
 		6A68605729ABEA46002021C6 /* number 9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "number 9.swift"; sourceTree = "<group>"; };
+		6AB07B6A29D1E30300CA95CB /* letter d.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter d.swift"; sourceTree = "<group>"; };
+		6AB07B6C29D1E39000CA95CB /* letter e.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter e.swift"; sourceTree = "<group>"; };
+		6AB07B6E29D1E3E000CA95CB /* letter f.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter f.swift"; sourceTree = "<group>"; };
+		6AB07B7029D1E40800CA95CB /* letter g.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter g.swift"; sourceTree = "<group>"; };
+		6AB07B7229D1E42900CA95CB /* letter h.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter h.swift"; sourceTree = "<group>"; };
+		6AB07B7429D1E44A00CA95CB /* letter i.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter i.swift"; sourceTree = "<group>"; };
+		6AB07B7629D1E46A00CA95CB /* letter j.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter j.swift"; sourceTree = "<group>"; };
+		6AB07B7829D1E48E00CA95CB /* letter k.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter k.swift"; sourceTree = "<group>"; };
+		6AB07B7A29D1E4A900CA95CB /* letter l.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter l.swift"; sourceTree = "<group>"; };
+		6AB07B7C29D1E4D700CA95CB /* letter m.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter m.swift"; sourceTree = "<group>"; };
+		6AB07B7E29D1E4F300CA95CB /* letter n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter n.swift"; sourceTree = "<group>"; };
+		6AB07B8029D1E52E00CA95CB /* letter o.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter o.swift"; sourceTree = "<group>"; };
+		6AB07B8229D1E54800CA95CB /* letter p.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter p.swift"; sourceTree = "<group>"; };
+		6AB07B8429D1E56200CA95CB /* letter q.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter q.swift"; sourceTree = "<group>"; };
+		6AB07B8629D1E58F00CA95CB /* letter r.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter r.swift"; sourceTree = "<group>"; };
+		6AB07B8829D1E5B000CA95CB /* letter s.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter s.swift"; sourceTree = "<group>"; };
+		6AB07B8A29D1E5CB00CA95CB /* letter t.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter t.swift"; sourceTree = "<group>"; };
+		6AB07B8C29D1E5E600CA95CB /* letter u.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter u.swift"; sourceTree = "<group>"; };
+		6AB07B8E29D1E60100CA95CB /* letter v.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter v.swift"; sourceTree = "<group>"; };
+		6AB07B9029D1E61C00CA95CB /* letter w.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter w.swift"; sourceTree = "<group>"; };
+		6AB07B9229D1E63900CA95CB /* letter x.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter x.swift"; sourceTree = "<group>"; };
+		6AB07B9429D1E65800CA95CB /* letter y.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter y.swift"; sourceTree = "<group>"; };
+		6AB07B9629D1E67100CA95CB /* letter z.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "letter z.swift"; sourceTree = "<group>"; };
+		6AB07B9829D1E72300CA95CB /* no letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "no letter.swift"; sourceTree = "<group>"; };
+		6AB07B9A29D2002D00CA95CB /* Practice Letters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Practice Letters.swift"; sourceTree = "<group>"; };
+		6AB07B9C29D2035400CA95CB /* Practice Letter f.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Practice Letter f.swift"; sourceTree = "<group>"; };
+		6AB07B9E29D203A700CA95CB /* Practice session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Practice session.swift"; sourceTree = "<group>"; };
+		6AB07BA029D2049800CA95CB /* Answer of letter f.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Answer of letter f.swift"; sourceTree = "<group>"; };
+		6AB07BA229D2052500CA95CB /* Wrong Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wrong Answer.swift"; sourceTree = "<group>"; };
+		6AB07BA429D2232A00CA95CB /* Practice letter b.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Practice letter b.swift"; sourceTree = "<group>"; };
+		6AB07BA629D223DA00CA95CB /* practice number 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "practice number 3.swift"; sourceTree = "<group>"; };
+		6AB07BA829D2243E00CA95CB /* Practice 8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Practice 8.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,11 +191,43 @@
 				6A07FA5229AA4EBF00B87573 /* D_BrailleApp.swift */,
 				6A07FA5429AA4EBF00B87573 /* ContentView.swift */,
 				6A68603B29AA7A75002021C6 /* Learning Letters.swift */,
+				6AB07B9A29D2002D00CA95CB /* Practice Letters.swift */,
+				6AB07B9E29D203A700CA95CB /* Practice session.swift */,
+				6AB07B9C29D2035400CA95CB /* Practice Letter f.swift */,
+				6AB07BA029D2049800CA95CB /* Answer of letter f.swift */,
+				6AB07BA429D2232A00CA95CB /* Practice letter b.swift */,
+				6AB07BA629D223DA00CA95CB /* practice number 3.swift */,
+				6AB07BA829D2243E00CA95CB /* Practice 8.swift */,
+				6AB07BA229D2052500CA95CB /* Wrong Answer.swift */,
 				6A68604329ABE664002021C6 /* Learning Numbers.swift */,
 				6A07FA5629AA4EC000B87573 /* Assets.xcassets */,
 				6A68603D29AA954A002021C6 /* Letter a.swift */,
 				6A68603F29AA955F002021C6 /* letter b.swift */,
 				6A68604129AA957B002021C6 /* letter c.swift */,
+				6AB07B6A29D1E30300CA95CB /* letter d.swift */,
+				6AB07B6C29D1E39000CA95CB /* letter e.swift */,
+				6AB07B6E29D1E3E000CA95CB /* letter f.swift */,
+				6AB07B7029D1E40800CA95CB /* letter g.swift */,
+				6AB07B7229D1E42900CA95CB /* letter h.swift */,
+				6AB07B7429D1E44A00CA95CB /* letter i.swift */,
+				6AB07B7629D1E46A00CA95CB /* letter j.swift */,
+				6AB07B7829D1E48E00CA95CB /* letter k.swift */,
+				6AB07B7A29D1E4A900CA95CB /* letter l.swift */,
+				6AB07B7C29D1E4D700CA95CB /* letter m.swift */,
+				6AB07B7E29D1E4F300CA95CB /* letter n.swift */,
+				6AB07B8029D1E52E00CA95CB /* letter o.swift */,
+				6AB07B8229D1E54800CA95CB /* letter p.swift */,
+				6AB07B8429D1E56200CA95CB /* letter q.swift */,
+				6AB07B8629D1E58F00CA95CB /* letter r.swift */,
+				6AB07B8829D1E5B000CA95CB /* letter s.swift */,
+				6AB07B8A29D1E5CB00CA95CB /* letter t.swift */,
+				6AB07B8C29D1E5E600CA95CB /* letter u.swift */,
+				6AB07B8E29D1E60100CA95CB /* letter v.swift */,
+				6AB07B9029D1E61C00CA95CB /* letter w.swift */,
+				6AB07B9229D1E63900CA95CB /* letter x.swift */,
+				6AB07B9429D1E65800CA95CB /* letter y.swift */,
+				6AB07B9629D1E67100CA95CB /* letter z.swift */,
+				6AB07B9829D1E72300CA95CB /* no letter.swift */,
 				6A68604729ABE9C8002021C6 /* number 0.swift */,
 				6A68604529ABE921002021C6 /* number 1.swift */,
 				6A68604929ABE9DB002021C6 /* number 2.swift */,
@@ -302,23 +398,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AB07B8129D1E52E00CA95CB /* letter o.swift in Sources */,
+				6AB07BA529D2232A00CA95CB /* Practice letter b.swift in Sources */,
 				6A68605829ABEA46002021C6 /* number 9.swift in Sources */,
 				6A68604429ABE664002021C6 /* Learning Numbers.swift in Sources */,
+				6AB07B9729D1E67100CA95CB /* letter z.swift in Sources */,
+				6AB07B9129D1E61C00CA95CB /* letter w.swift in Sources */,
+				6AB07B8529D1E56200CA95CB /* letter q.swift in Sources */,
+				6AB07B8329D1E54800CA95CB /* letter p.swift in Sources */,
+				6AB07B6D29D1E39000CA95CB /* letter e.swift in Sources */,
+				6AB07B7929D1E48E00CA95CB /* letter k.swift in Sources */,
+				6AB07B7729D1E46A00CA95CB /* letter j.swift in Sources */,
+				6AB07B6F29D1E3E000CA95CB /* letter f.swift in Sources */,
 				6A68604229AA957B002021C6 /* letter c.swift in Sources */,
 				6A07FA5529AA4EBF00B87573 /* ContentView.swift in Sources */,
+				6AB07B8729D1E58F00CA95CB /* letter r.swift in Sources */,
+				6AB07B7529D1E44A00CA95CB /* letter i.swift in Sources */,
+				6AB07B8D29D1E5E600CA95CB /* letter u.swift in Sources */,
+				6AB07B7129D1E40800CA95CB /* letter g.swift in Sources */,
+				6AB07B8F29D1E60100CA95CB /* letter v.swift in Sources */,
+				6AB07B7329D1E42900CA95CB /* letter h.swift in Sources */,
+				6AB07B7B29D1E4A900CA95CB /* letter l.swift in Sources */,
 				6A68604629ABE921002021C6 /* number 1.swift in Sources */,
 				6A68603C29AA7A75002021C6 /* Learning Letters.swift in Sources */,
+				6AB07B9329D1E63900CA95CB /* letter x.swift in Sources */,
+				6AB07B8929D1E5B000CA95CB /* letter s.swift in Sources */,
 				6A68604C29ABE9F4002021C6 /* number 3.swift in Sources */,
+				6AB07B9D29D2035400CA95CB /* Practice Letter f.swift in Sources */,
+				6AB07B9529D1E65800CA95CB /* letter y.swift in Sources */,
+				6AB07B7D29D1E4D800CA95CB /* letter m.swift in Sources */,
 				6A68605429ABEA2B002021C6 /* number 7.swift in Sources */,
 				6A68604E29ABEA00002021C6 /* number 4.swift in Sources */,
+				6AB07B9929D1E72300CA95CB /* no letter.swift in Sources */,
 				6A68603E29AA954A002021C6 /* Letter a.swift in Sources */,
 				6A68604A29ABE9DB002021C6 /* number 2.swift in Sources */,
 				6A68605629ABEA3D002021C6 /* number 8.swift in Sources */,
+				6AB07BA329D2052500CA95CB /* Wrong Answer.swift in Sources */,
 				6A68604829ABE9C8002021C6 /* number 0.swift in Sources */,
 				6A68604029AA955F002021C6 /* letter b.swift in Sources */,
 				6A68605029ABEA0B002021C6 /* number 5.swift in Sources */,
+				6AB07B6B29D1E30300CA95CB /* letter d.swift in Sources */,
+				6AB07BA129D2049800CA95CB /* Answer of letter f.swift in Sources */,
+				6AB07BA729D223DA00CA95CB /* practice number 3.swift in Sources */,
 				6A68605229ABEA1E002021C6 /* number 6.swift in Sources */,
 				6A07FA5329AA4EBF00B87573 /* D_BrailleApp.swift in Sources */,
+				6AB07B9F29D203A700CA95CB /* Practice session.swift in Sources */,
+				6AB07B9B29D2002D00CA95CB /* Practice Letters.swift in Sources */,
+				6AB07B7F29D1E4F300CA95CB /* letter n.swift in Sources */,
+				6AB07BA929D2243E00CA95CB /* Practice 8.swift in Sources */,
+				6AB07B8B29D1E5CB00CA95CB /* letter t.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

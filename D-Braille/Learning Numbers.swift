@@ -19,7 +19,7 @@ struct Learning_Numbers: View {
         NavigationView {
             ZStack {
                 Color(red: 1, green: 0.929, blue: 0.063).edgesIgnoringSafeArea(.all)
-                VStack(spacing: 30) {
+                VStack {
                     Text("Zahlen lernen")
                         .font(.largeTitle).bold()
                         .foregroundColor(Color(red: 0, green: 0.102, blue: 0.545))
@@ -95,7 +95,7 @@ struct Learning_Numbers: View {
                     .navigationDestination(isPresented: $navigateToNextView) {
                         destinationView()
                     }
-                    
+                    Spacer()
                     Button(action: {
                         navigateToNextView = true
                     }) {
@@ -145,7 +145,7 @@ struct Learning_Numbers: View {
         case(false, false, true, true, false, true) :
             return AnyView(number_0())
         default:
-            return AnyView(Learning_Numbers())
+            return AnyView(no_letter())
         }
     }
 }

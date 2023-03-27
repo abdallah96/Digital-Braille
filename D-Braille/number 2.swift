@@ -13,7 +13,7 @@ struct number_2: View {
     var body: some View {
         ZStack {
             Color(red: 1, green: 0.929, blue: 0.063).edgesIgnoringSafeArea(.all)
-            VStack(spacing: 30) {
+            VStack {
                 Text("Zahlen 2")
                     .font(.largeTitle).bold()
                     .foregroundColor(Color(red: 0, green: 0.102, blue: 0.545))
